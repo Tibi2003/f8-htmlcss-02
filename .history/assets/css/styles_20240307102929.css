@@ -42,7 +42,7 @@ a {
 }
 
 .btn:hover {
-	opacity: 0.9;
+	opacity: 0.1;
 }
 
 /* Header */
@@ -53,7 +53,6 @@ a {
 .header.fixed {
 	position: sticky;
 	top: -28px;
-	z-index: 1;
 }
 
 .header .body {
@@ -197,15 +196,13 @@ a {
 }
 
 .hero .desc {
-	margin-top: 22px;
+	margin: 22px 0;
 	color: #5f5b53;
 	font-size: 1.8rem;
 	line-height: 1.67;
 }
 
 .hero .cta-group {
-	display: flex;
-	align-items: center;
 	margin: 38px 0 48px;
 }
 
@@ -213,45 +210,4 @@ a {
 	min-width: 180px;
 	line-height: 64px;
 	background-color: var(--primary-color);
-}
-
-.hero .watch-video {
-	display: flex;
-	align-items: center;
-	margin-left: 28px;
-	border: none;
-	background: transparent;
-	cursor: pointer;
-}
-
-.hero .watch-video .icon {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background: #ffffff;
-	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
-}
-
-.hero .watch-video span {
-	margin-left: 14px;
-	color: #171100;
-	font-size: 1.8rem;
-	font-weight: 600;
-	line-height: 1.67;
-}
-
-.hero .stats {
-	margin: 8px 0 0 -28px;
-}
-
-.hero .stats strong {
-	padding: 0 8px 0 28px;
-	color: #171100;
-	font-family: var(--font-heading);
-	font-size: 4.4rem;
-	font-weight: 700;
-	line-height: 1.23;
 }

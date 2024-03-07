@@ -274,7 +274,6 @@ a {
 
 .popular-top {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
 }
 
@@ -284,27 +283,4 @@ a {
 	color: #5f5b53;
 	font-size: 1.8rem;
 	line-height: 1.67;
-}
-
-.popular-top .controls {
-	display: flex;
-	gap: 18px;
-}
-
-.popular-top .control-btn {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	color: var(--primary-color);
-	border: 1px solid var(--primary-color);
-	background: transparent;
-}
-
-.popular-top .control-btn:hover {
-	color: #fff;
-	background: var(--primary-color);
-	cursor: pointer;
 }

@@ -575,10 +575,6 @@ a {
 	background: #fff;
 }
 
-.blog .item:hover {
-	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
-}
-
 .blog .item .thumb {
 	width: 100%;
 	height: 250px;
@@ -622,15 +618,9 @@ a {
 	background: #e2dfda;
 }
 
-.blog .item .title a {
-	display: inline-block;
-	margin-top: 12px 0;
+.blog .item .title {
 	color: #171100;
 	font-size: 1.6rem;
 	font-weight: 600;
 	line-height: 1.75;
-}
-
-.blog .item .btn:hover {
-	background: var(--primary-color);
 }

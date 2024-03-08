@@ -572,7 +572,7 @@ a {
 
 .blog .item {
 	flex-shrink: 0;
-	width: calc(33.33% - 20px);
+	width: 33.33%;
 	border-radius: 16px;
 	background: #fff;
 }

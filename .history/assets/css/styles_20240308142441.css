@@ -567,12 +567,10 @@ a {
 	display: flex;
 	gap: 30px;
 	margin-top: 55px;
-	overflow: hidden;
 }
 
 .blog .item {
-	flex-shrink: 0;
-	width: calc(33.33% - 20px);
+	width: 33.33%;
 	border-radius: 16px;
 	background: #fff;
 }
@@ -645,7 +643,6 @@ a {
 	display: flex;
 	gap: 6px;
 	justify-content: center;
-	margin-top: 38px;
 }
 
 .blog .dot {
@@ -653,10 +650,4 @@ a {
 	height: 6px;
 	border-radius: 50%;
 	background: #5f5b53;
-	cursor: pointer;
-}
-
-.blog .dot.active {
-	background: var(--primary-color);
-	cursor: default;
 }

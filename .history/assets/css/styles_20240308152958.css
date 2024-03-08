@@ -626,7 +626,7 @@ a {
 
 .blog .item .title a {
 	display: inline-block;
-	margin: 12px 0;
+	margin-top: 12px 0;
 	color: #171100;
 	font-size: 1.6rem;
 	font-weight: 600;
@@ -724,15 +724,4 @@ a {
 .footer .list strong {
 	color: #ffffff;
 	font-weight: 600;
-}
-
-.footer .copyright {
-	padding: 28px 0;
-}
-
-.footer .copyright p {
-	color: #807d74;
-	text-align: center;
-	font-size: 1.4rem;
-	line-height: 1.86;
 }

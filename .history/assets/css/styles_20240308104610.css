@@ -74,10 +74,6 @@ a {
 	--line-clamp: 2;
 }
 
-.break-all {
-	word-break: break-all;
-}
-
 /* Header */
 .header {
 	background: #fffcf4;
@@ -364,7 +360,6 @@ a {
 }
 
 .popular .course-item .title a {
-	padding-right: 6px;
 	color: #171100;
 	font-size: 1.8rem;
 	font-weight: 600;

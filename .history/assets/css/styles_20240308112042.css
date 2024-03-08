@@ -450,12 +450,6 @@ a {
 	height: 6px;
 	border-radius: 50%;
 	background: #634700;
-	cursor: pointer;
-}
-
-.feedback-item .dot.active {
-	background: #ffb900;
-	cursor: default;
 }
 
 .feedback-item .content {

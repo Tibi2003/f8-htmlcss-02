@@ -414,13 +414,11 @@ a {
 
 .feedback-list {
 	display: flex;
-	overflow: hidden;
+	flex-shrink: 0;
 }
 
 .feedback-item {
 	display: flex;
-	width: 100%;
-	flex-shrink: 0;
 }
 
 .feedback-item .avatar {

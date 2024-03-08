@@ -414,12 +414,10 @@ a {
 
 .feedback-list {
 	display: flex;
-	overflow: hidden;
 }
 
 .feedback-item {
 	display: flex;
-	width: 100%;
 	flex-shrink: 0;
 }
 
